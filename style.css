@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+  background: #dbe1ee!important;
+}
+/* sidebar */
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.wrapper .sidebar{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #4b4276;
+  padding: 30px 0px;
+  
+}
+.wrapper .sidebar h2{
+  color: #fff!important;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper .sidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+.wrapper .sidebar ul li a{
+  color:#bdb8d7;
+  display: block;
+  text-decoration: none;
+
+}
+.wrapper .sidebar ul li a .fa-brands {
+  width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+  background: #594f8d;
+}
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+.wrapper .sidebar .social_media{
+  bottom: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.wrapper .sidebar .social_media a {
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.wrapper .main_content{
+  margin-left: 210px; 
+  width: 100%;
+}
+#h1_id{
+    margin: 1%;
+    margin-top: 7%;
+    padding: 2%;
+    background-color: rgb(138, 25, 25);
+    color: white ;   
+}
+#h1_id:hover{
+    background-color: #333;
+    color: aqua;
+    font-style: oblique;
+}
+#image_home{
+    width: max-content;
+    height: max-content;
+}
+#learnId{
+    padding: 15px;
+    margin: 30px;
+}
+.learnClass{
+    padding: 14px 15px;
+}
+
+/* paragrapge du introduction style */
+#introId{
+    padding: 15px;
+    font-style: italic;
+}
+.titre{
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* paragraphe style */
+.paragraphe{
+    margin: 1%;
+    padding: 1%;
+    font-size: 19px;
+    font-style: italic;
+}
+#image_html{
+    width: 700px;
+    height: 360px;
+    border: 1px solid black;
+}
+ 
+  #footer{
+    background-color: #666666!important;
+  }
+      
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #666666;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #90c7dd;
+    color: black;
+    font-style: oblique;
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #1e0dbe;
+    color: white;
+    font-style: italic;
+  }
+  .logo{
+    width: 50px;
+    height: 30px;
+    
+   
+  }
+  
